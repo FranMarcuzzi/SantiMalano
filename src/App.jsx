@@ -18,8 +18,8 @@ function App() {
       <div className='Body'>
         <div className='marginTitle'>
 
-          <h2 className='Steps'>Step 1 of 2: &nbsp; </h2>
-          <h2 className='text'> Watch Video</h2>
+          <h2 className='Steps'>Paso 1 de 2: &nbsp; </h2>
+          <h2 className='text'> Mira el Video</h2>
 
         </div>
 
@@ -29,13 +29,13 @@ function App() {
         </div>
         <div style={{ marginTop: '10%' }}>
 
-          <h2 className='Steps'>Step 2 of 2: &nbsp; </h2>
-          <h2 className='text'> Complete Mastermind Application</h2>
+          <h2 className='Steps'>Paso 2 de 2: &nbsp; </h2>
+          <h2 className='text'> Completa la Solicitud</h2>
 
         </div>
         <div className='divs2'>
 
-          <p style={{ color: 'white' }}>*Your answers will remain completely confidential</p>
+          <p style={{ color: 'white' }}>*Tus respuestas son completamente confidenciales</p>
           <InlineWidget url="https://calendly.com/lasociedad-ac/demo-call"   />
         </div>
 
