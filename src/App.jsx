@@ -16,7 +16,7 @@ function App() {
       </div>
 
       <div className='Body'>
-        <div style={{ marginTop: '10%' }}>
+        <div className='marginTitle'>
 
           <h2 className='Steps'>Step 1 of 2: &nbsp; </h2>
           <h2 className='text'> Watch Video</h2>
@@ -36,7 +36,7 @@ function App() {
         <div className='divs2'>
 
           <p style={{ color: 'white' }}>*Your answers will remain completely confidential</p>
-          <InlineWidget url="https://calendly.com/santimalano"   />
+          <InlineWidget url="https://calendly.com/lasociedad-ac/demo-call"   />
         </div>
 
       </div>

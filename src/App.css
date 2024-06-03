@@ -64,6 +64,10 @@ p {
   height: 80vh !important;
   margin-inline: auto;
 }
+
+.marginTitle{
+  margin-top: 10%;
+}
 @media (max-width: 1025px) {
  
   .react-player {
@@ -119,6 +123,9 @@ p {
     width: 40vh !important;
     height: 30vh !important;
   } 
+  .marginTitle{
+    margin-top: 20%;
+  }
 }
 
 @media (max-width: 380px) {
