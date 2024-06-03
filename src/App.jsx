@@ -14,7 +14,7 @@ function App() {
 
         <Header />
       </div>
-      
+
       <div className='Body'>
         <div style={{ marginTop: '10%' }}>
 
@@ -23,20 +23,24 @@ function App() {
 
         </div>
 
-        <ReactPlayer url='https://www.youtube.com/watch?v=_w4sPyiNdBY' />
+        <div className='divs1'>
+
+          <ReactPlayer url='https://www.youtube.com/watch?v=_w4sPyiNdBY' className='react-player' />
+        </div>
         <div style={{ marginTop: '10%' }}>
 
           <h2 className='Steps'>Step 2 of 2: &nbsp; </h2>
           <h2 className='text'> Complete Mastermind Application</h2>
 
         </div>
-        <p style={{color:'white'}}>*Your answers will remain completely confidential</p>
-          <InlineWidget url="https://calendly.com/santimalano" />
+        <div className='divs2'>
+
+          <p style={{ color: 'white' }}>*Your answers will remain completely confidential</p>
+          <InlineWidget url="https://calendly.com/santimalano"   />
+        </div>
 
       </div>
-      
-      
-      
+
     </>
   )
 }

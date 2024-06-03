@@ -1,60 +1,145 @@
-body{
+body {
   background-color: #464241;
-   
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-
 
 #root {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  
   text-align: center;
 }
 
-.Steps{
+.Header,
+.Body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Steps {
   color: #fce851;
   display: inline-block;
+  margin: 0;
 }
 
-
-.text{
+.text {
   color: #C0D4DB;
   display: inline-block;
+  margin: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.divs1 {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.divs2 {
+  width: 100%;
+  display: inline-table;
+}
+
+p {
+  color: white;
+}
+.react-player {
+  width: 70vw !important;
+  height: 70vh !important;
+} 
+
+  
+.calendly-inline-widget{
+  width: 60vw;
+  height: 80vh !important;
+  margin-inline: auto;
+}
+@media (max-width: 1025px) {
+ 
+  .react-player {
+    width: 60vh !important;
+    height: 40vh !important;
+  } 
+}
+
+@media (max-width: 768px) {
+  .Steps {
+    font-size: 1.2em;
   }
-  to {
-    transform: rotate(360deg);
+
+  .text {
+    font-size: 1.2em;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  p {
+    font-size: 0.9em;
   }
+
+  .divs1 {
+    width: 40%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .react-player {
+    width: 80vh !important;
+    height: 40vh !important;
+  } 
+  
+  .calendly-inline-widget{
+    width: 70vw;
+    height: 80vh !important;
+    margin-inline: auto;
+  }
+  
 }
 
-.card {
-  padding: 2em;
+@media (max-width: 750px) {
+ 
+  .react-player {
+    width: 80vh !important;
+    height: 40vh !important;
+  } 
+}
+@media (max-width: 550px) {
+ 
+  .react-player {
+    width: 40vh !important;
+    height: 30vh !important;
+  } 
 }
 
-.read-the-docs {
-  color: #888;
+@media (max-width: 380px) {
+ 
+  .react-player {
+    width: 35vh !important;
+    height: 30vh !important;
+  } 
+}
+
+@media (max-width: 340px) {
+ 
+  .react-player {
+    width: 40vh !important;
+    height: 30vh !important;
+  } 
+
+  .calendly-inline-widget{
+    min-width: 90vw !important;
+    height: 80vh !important;
+    margin-inline: auto;
+  }
+  
 }
