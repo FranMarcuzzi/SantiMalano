@@ -25,7 +25,7 @@ function App() {
 
         <div className='divs1'>
 
-          <ReactPlayer url='https://www.youtube.com/watch?v=_w4sPyiNdBY' className='react-player' />
+          <ReactPlayer url='https://www.youtube.com/watch?v=igvo4-Wx9WQ' className='react-player' />
         </div>
         <div style={{ marginTop: '10%' }}>
 
